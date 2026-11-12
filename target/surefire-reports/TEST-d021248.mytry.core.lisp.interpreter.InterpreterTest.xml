@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.073" tests="35" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/test-classes:/home/d021248/sapdev/my-stuff/my-lisp/target/classes:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/d021248/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/d021248/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/d021248/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/d021248/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/home/d021248/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar"/>
+    <property name="java.vm.vendor" value="SAP SE"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://sapmachine.io/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/sapmachine-25/lib"/>
+    <property name="sun.java.command" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar /home/d021248/sapdev/my-stuff/my-lisp/target/surefire 2026-11-12T21-00-32_391-jvmRun1 surefire-20261112210032485_1tmp surefire_0-20261112210032485_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/test-classes:/home/d021248/sapdev/my-stuff/my-lisp/target/classes:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/d021248/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/d021248/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/d021248/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/d021248/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/home/d021248/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/d021248"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/sapmachine-25"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/d021248/sapdev/my-stuff/my-lisp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
+    <property name="user.name" value="d021248"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.87.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="SapMachine"/>
+    <property name="localRepository" value="/home/d021248/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/SAP/SapMachine/issues/new"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/home/d021248/sapdev/my-stuff/my-lisp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="SAP SE"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="null_empty" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.015"/>
+  <testcase name="filter_builtin" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.004"/>
+  <testcase name="or_shortCircuit" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.002"/>
+  <testcase name="define_shorthand" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="cdr_test" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="arithmetic_division" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="begin_returnsLast" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="letrec_recursive" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="closure_captures_env" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.004"/>
+  <testcase name="comparison_lessThan" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="cond_form" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="comparison_greaterThan" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="cons_test" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="let_binding" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="quote_symbol" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="car_test" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="setMutatesBinding" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="arithmetic_subtraction" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="define_function" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="lambda_square" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="comparison_equal" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="arithmetic_nested" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="null_nonEmpty" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="fibonacci_in_lisp" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.004"/>
+  <testcase name="arithmetic_addition" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="quote_list" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="reduce_builtin" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="if_false" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="and_shortCircuit" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="recursive_map_in_lisp" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="if_true" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="map_builtin" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.002"/>
+  <testcase name="letStar_sequential" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+  <testcase name="arithmetic_multiplication" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.0"/>
+  <testcase name="define_variable" classname="d021248.mytry.core.lisp.interpreter.InterpreterTest" time="0.001"/>
+</testsuite>

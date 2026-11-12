@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.159" tests="40" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/test-classes:/home/d021248/sapdev/my-stuff/my-lisp/target/classes:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/d021248/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/d021248/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/d021248/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/d021248/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/home/d021248/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar"/>
+    <property name="java.vm.vendor" value="SAP SE"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://sapmachine.io/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/sapmachine-25/lib"/>
+    <property name="sun.java.command" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar /home/d021248/sapdev/my-stuff/my-lisp/target/surefire 2026-11-12T21-00-32_391-jvmRun1 surefire-20261112210032485_1tmp surefire_0-20261112210032485_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/test-classes:/home/d021248/sapdev/my-stuff/my-lisp/target/classes:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/d021248/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/d021248/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/d021248/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/d021248/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/home/d021248/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/d021248"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/sapmachine-25"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/d021248/sapdev/my-stuff/my-lisp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
+    <property name="user.name" value="d021248"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.87.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="SapMachine"/>
+    <property name="localRepository" value="/home/d021248/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/SAP/SapMachine/issues/new"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/home/d021248/sapdev/my-stuff/my-lisp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="SAP SE"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[1]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.027"/>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[2]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.001"/>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[3]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.003"/>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[4]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.001"/>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[5]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.001"/>
+  <testcase name="symbolicDerivative_matchesNumerical(String, double)[6]" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest" time="0.001"/>
+  <testcase name="parsesNegation" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesSubtraction" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.002"/>
+  <testcase name="parsesComplexExpression" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesPower" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesVariable" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesAddition" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.0"/>
+  <testcase name="respectsPrecedence" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesMultiplication" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesParentheses" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.001"/>
+  <testcase name="parsesNumber" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$ParserTest" time="0.0"/>
+  <testcase name="mulOneRight_simplifiesAway" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="addZeroRight_simplifiesAway" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="addZeroLeft_simplifiesAway" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="powZero_simplifiesToOne" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="mulOneLeft_simplifiesAway" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="mulZero_simplifiesAway" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="constantFolding_add" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="constantFolding_mul" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="idempotent_simplifyTwice" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="powOne_simplifiesToBase" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$SimplifyTest" time="0.001"/>
+  <testcase name="variable_differentiates_toOne" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="otherVariable_differentiates_toZero" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="power_applies_powerChainRule" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="sum_applies_sumRule" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="constant_differentiates_toZero" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="product_applies_productRule" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.001"/>
+  <testcase name="secondDerivative_ofCubic" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$DiffTest" time="0.0"/>
+  <testcase name="evaluatesComplex" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.001"/>
+  <testcase name="evaluatesAdd" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.0"/>
+  <testcase name="evaluatesMul" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.0"/>
+  <testcase name="evaluatesPow" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.0"/>
+  <testcase name="evaluatesVariable" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.0"/>
+  <testcase name="unboundVariable_throws" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.001"/>
+  <testcase name="evaluatesConstant" classname="d021248.mytry.core.lisp.symbolic.SymbolicTest$EvalTest" time="0.001"/>
+</testsuite>
