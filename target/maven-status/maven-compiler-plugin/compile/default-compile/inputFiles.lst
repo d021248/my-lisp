@@ -1,3 +1,12 @@
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/Goal.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/MiniKanren.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/MiniKanrenDemo.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/State.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/Subst.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/Term.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/broken/BacktrackingWithExceptionsDemo.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/broken/package-info.java
+/home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lang/logic/package-info.java
 /home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lisp/LispRepl.java
 /home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lisp/NumFormat.java
 /home/d021248/sapdev/my-stuff/my-lisp/src/main/java/d021248/mytry/core/lisp/demo/InterpreterDemo.java

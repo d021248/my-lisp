@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="d021248.mytry.core.lisp.list.LazyTest" time="0.031" tests="19" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="d021248.mytry.core.lisp.list.LazyTest" time="0.029" tests="19" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/sapmachine-25/lib"/>
-    <property name="sun.java.command" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar /home/d021248/sapdev/my-stuff/my-lisp/target/surefire 2026-11-12T21-00-32_391-jvmRun1 surefire-20261112210032485_1tmp surefire_0-20261112210032485_2tmp"/>
+    <property name="sun.java.command" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112222141046_3.jar /home/d021248/sapdev/my-stuff/my-lisp/target/surefire 2026-11-12T22-21-40_977-jvmRun1 surefire-20261112222141046_1tmp surefire_0-20261112222141046_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/test-classes:/home/d021248/sapdev/my-stuff/my-lisp/target/classes:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/d021248/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/d021248/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/d021248/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:/home/d021248/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/d021248/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/home/d021248/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112210032485_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/d021248/sapdev/my-stuff/my-lisp/target/surefire/surefirebooter-20261112222141046_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
     <property name="user.name" value="d021248"/>
@@ -55,21 +55,21 @@
     <property name="java.class.version" value="69.0"/>
   </properties>
   <testcase name="zipWith_sumOfTwoStreams_returnsPairwiseSums" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.003"/>
-  <testcase name="primes_25th_is97" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.006"/>
-  <testcase name="filter_noneMatch_returnsEmptyList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.002"/>
-  <testcase name="cdr_emptyList_returnsNil" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
-  <testcase name="from_takeZero_returnsEmptyList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
-  <testcase name="zipWith_stopsAtShorterFiniteList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.002"/>
+  <testcase name="primes_25th_is97" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.003"/>
+  <testcase name="filter_noneMatch_returnsEmptyList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
+  <testcase name="cdr_emptyList_returnsNil" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
+  <testcase name="from_takeZero_returnsEmptyList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
+  <testcase name="zipWith_stopsAtShorterFiniteList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="cdr_returnsNextElement" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
   <testcase name="car_returnsHead" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="from_startingFromNegative_works" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="fibs_pairSumsEqualNextFib" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.002"/>
   <testcase name="repeat_takeFour_returnsFourCopies" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
   <testcase name="iterate_identityFunction_repeatsValue" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
-  <testcase name="map_squaresOfNaturals_computedLazily" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
-  <testcase name="filter_evenNaturals_returnsEvenNumbers" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
-  <testcase name="primes_firstTen_returnsCorrectPrimes" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
-  <testcase name="from_takeFive_returnsConsecutiveIntegers" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
+  <testcase name="map_squaresOfNaturals_computedLazily" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.0"/>
+  <testcase name="filter_evenNaturals_returnsEvenNumbers" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.002"/>
+  <testcase name="primes_firstTen_returnsCorrectPrimes" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.002"/>
+  <testcase name="from_takeFive_returnsConsecutiveIntegers" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="iterate_powersOfTwo_generatesCorrectSequence" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="map_onEmptyList_returnsEmptyList" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>
   <testcase name="fibs_firstTen_returnsCorrectFibonacciSequence" classname="d021248.mytry.core.lisp.list.LazyTest" time="0.001"/>

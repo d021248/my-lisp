@@ -1,5 +1,6 @@
 d021248/mytry/core/lisp/symbolic/TaylorTest.class
 d021248/mytry/core/lisp/symbolic/SymbolicTest$ParserTest.class
+d021248/mytry/core/lang/logic/MiniKanrenTest.class
 d021248/mytry/core/lisp/list/LazyTest.class
 d021248/mytry/core/lisp/list/LispTest.class
 d021248/mytry/core/lisp/interpreter/InterpreterTest.class
@@ -7,3 +8,5 @@ d021248/mytry/core/lisp/symbolic/SymbolicTest$SimplifyTest.class
 d021248/mytry/core/lisp/symbolic/SymbolicTest.class
 d021248/mytry/core/lisp/symbolic/SymbolicTest$DiffTest.class
 d021248/mytry/core/lisp/symbolic/SymbolicTest$EvalTest.class
+d021248/mytry/core/lang/logic/MiniKanrenTest$MemberoTests.class
+d021248/mytry/core/lang/logic/MiniKanrenTest$AppendoTests.class
