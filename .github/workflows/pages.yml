@@ -32,6 +32,9 @@ jobs:
       - name: Generate JavaDoc
         run: mvn javadoc:javadoc -B
 
+      - name: Generate test coverage
+        run: mvn clean test jacoco:report -B
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -39,6 +42,7 @@ jobs:
         run: |
           mkdir -p _site
           cp -r target/site/apidocs _site/javadoc
+          cp -r target/site/jacoco _site/coverage
           cp README.md _site/
 
       - name: Upload artifact

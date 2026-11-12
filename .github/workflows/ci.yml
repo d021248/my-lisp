@@ -27,6 +27,15 @@ jobs:
     - name: Build and test
       run: mvn -B verify
 
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        files: ./target/site/jacoco/jacoco.xml
+        fail_ci_if_error: false
+        verbose: true
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
     - name: Archive test results
       if: always()
       uses: actions/upload-artifact@v4
@@ -34,4 +43,13 @@ jobs:
       with:
         name: test-results
         path: target/surefire-reports/
+        retention-days: 1
+
+    - name: Archive coverage report
+      if: always()
+      uses: actions/upload-artifact@v4
+      continue-on-error: true
+      with:
+        name: coverage-report
+        path: target/site/jacoco/
         retention-days: 1
