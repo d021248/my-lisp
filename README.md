@@ -2,8 +2,8 @@
 
 [![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)](https://openjdk.org/projects/jdk/25/)
 [![Build](https://img.shields.io/badge/Build-Maven-blue?logo=apachemaven)](https://maven.apache.org/)
-[![CI](https://github.com/d021248/my-lisp/actions/workflows/ci.yml/badge.svg)](https://github.com/d021248/my-lisp/actions/workflows/ci.yml)
-[![Coverage](https://codecov.io/gh/d021248/my-lisp/branch/main/graph/badge.svg)](https://codecov.io/gh/d021248/my-lisp)
+[![CI](https://github.com/d021248/my-lisp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/d021248/my-lisp/actions/workflows/ci.yml)
+[![Coverage](https://codecov.io/gh/d021248/my-lisp/branch/main/graph/badge.svg?branch=main)](https://codecov.io/gh/d021248/my-lisp)
 
 A Lisp interpreter written in Java 25 — lexer, parser, evaluator, 40+ built-in functions,
 lazy infinite lists, and symbolic differentiation with Taylor series expansion.
