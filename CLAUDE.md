@@ -84,12 +84,16 @@ Rules for both: `final` class, `main()` without `String[] args`.
 ## Package Map
 
 ```
-src/main/java/d021248/mytry/core/lisp/
+src/main/java/d021248/mytry/
 │
-├── interpreter/   Lexer, parser, evaluator, Env, Builtins (40+ functions), SExpr types
-├── list/          Lazy infinite lists — fibs, primes, from, take, filter, map
-├── symbolic/      Symbolic differentiation, simplification, Taylor series expansion
-└── demo/          InterpreterDemo, LazyListDemo, ListDemo, SymbolicDemo, TaylorDemo
+├── core/lisp/
+│   ├── interpreter/   Lexer, parser, evaluator, Env, Builtins (40+ functions), SExpr types
+│   ├── list/          Lazy infinite lists — fibs, primes, from, take, filter, map
+│   ├── symbolic/      Symbolic differentiation, simplification, Taylor series expansion
+│   └── demo/          InterpreterDemo, LazyListDemo, ListDemo, SymbolicDemo, TaylorDemo
+│
+└── core/lang/logic/   miniKanren logic programming — MiniKanren, Goal, State, Subst, Term,
+                       MiniKanrenDemo; broken/ — BacktrackingWithExceptionsDemo
 ```
 
 ---
