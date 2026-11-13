@@ -6,6 +6,10 @@ Lisp interpreter in Java 25 — lexer, parser, evaluator, 40+ built-in functions
 lazy infinite lists, and symbolic differentiation with Taylor series.
 Self-contained; no dependencies outside the JDK and test libraries.
 
+> **Architectural excellence is not a means but a goal.**
+> No ad-hoc solutions. No classes with more than one responsibility. No hidden side effects.
+> No premature abstractions. Every design decision is explicit and justified — the code is the learning material.
+
 Sibling repos: [my-try](../my-try) (core Java learning), [my-demos](../my-demos), [my-downloads](../my-downloads).
 
 ---
